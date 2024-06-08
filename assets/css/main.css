@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #0c0a0f;
   --color-secondary: #f85a40;
 }
 
@@ -240,7 +240,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: var(--color-primary);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -306,8 +306,9 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 100px;
   margin-right: 6px;
+  z-index: 1;
 }
 
 .header .logo h1 {
