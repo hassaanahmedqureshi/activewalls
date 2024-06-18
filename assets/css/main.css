@@ -2665,4 +2665,13 @@ section {
 
 .footer .credits a {
   color: #fff;
+} 
+
+
+
+.slides-1.portfolio-details-slider.swiper img {
+  width: 100%;
+  height: auto; /* Ensures the image height adjusts according to the width to maintain aspect ratio */
+  object-fit: contain; /* Ensures the image fits within the container without being distorted */
+  max-height: 400px; /* Set a maximum height to control the size of the images */
 }
